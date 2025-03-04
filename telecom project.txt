@@ -1,0 +1,16 @@
+Challenge 1: Ensuring seamless network transitions between 2G/3G/4G for uninterrupted service
+Problem:
+
+In a telecom network, users move between different network areas where coverage may switch between 2G, 3G, and 4G (LTE).
+If handover (switching from one network to another) is not optimized, it can cause call drops, voice distortions, or data session interruptions.
+For example, during a handover from LTE to 3G, if the network selection algorithm is not efficient, 
+the user might experience delays or failures in connecting to the new network.
+Solution:
+
+Worked on handover algorithms that determine when and how a device should switch networks.
+Optimized key network parameters like:
+Signal strength thresholds (RSRP, RSRQ, SINR) – Adjusted the values to ensure the best possible transition.
+Timer settings for handover decisions – Fine-tuned the duration before a handover is triggered to avoid unnecessary switching.
+Load balancing techniques – Ensured that users are evenly distributed across available network resources.
+Tested these optimizations using simulated network environments and real-time performance data.
+As a result, the network reduced call drops and improved user experience for voice and data sessions.
