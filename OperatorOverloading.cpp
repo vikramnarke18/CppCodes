@@ -8,12 +8,12 @@ public:
 
     /* Overloading + operator with reference parameter to avoid object copy*/
 
-    complex operator+ (const complex &x) {
+    complex  operator+ (const complex x) {
 
         complex temp;
         temp.real = real + x.real;
         temp.img = img + x.img;
-        return temp;
+       return temp;
         
     }
 };

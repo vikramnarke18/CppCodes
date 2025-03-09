@@ -6,7 +6,7 @@ public:
     int baseValue = 10;
 
     void show() {
-        cout << "Base value: " << baseValue << endl;
+        cout << "Base value4: " << baseValue << endl;
     }
 };
 
@@ -15,7 +15,7 @@ public:
     int derivedValue = 20;
 
     void show() {
-        cout << "Base value: " << baseValue << ", Derived value: " << derivedValue << endl;
+        cout << "Base value1: " << baseValue << ", Derived value: " << derivedValue << endl;
     }
 };
 
